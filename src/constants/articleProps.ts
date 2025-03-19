@@ -177,3 +177,5 @@ export const defaultArticleState = {
 };
 
 export type ArticleStateType = typeof defaultArticleState;
+
+export type DefaultArticleStateKeys = keyof typeof defaultArticleState;
